@@ -1,0 +1,2275 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We provide high-quality academic writing services, including reports, proposals, essays, dissertations, theses, technical writing, literature reviews, and more. Our team of experts ensures plagiarism-free content, adhering to industry standards, and delivering the best results for students across various fields such as mathematics, computer science, business, philosophy, and medicine.">
+<meta name="keywords" content="academic writing, reports, proposals, essays, dissertations, theses, argumentative essays, descriptive essays, expository essays, narrative essays, technical writing, business reports, plagiarism-free, AI-driven content, essay writing, project reports, literature reviews, article writing, quality assurance">
+<meta name="author" content="HamX assignment">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="High-Quality Academic Writing Services">
+<meta property="og:description" content="Providing expert academic writing assistance in reports, essays, proposals, dissertations, theses, and more. Our team ensures plagiarism-free, high-quality content tailored to your needs.">
+<meta name="twitter:title" content="High-Quality Academic Writing Services">
+<meta name="twitter:description" content="Expert academic writing services for students, including essays, reports, dissertations, and technical writing. Plagiarism-free, industry-standard content.">
+
+
+
+
+    <!-- ===== CSS ===== -->
+     <!-- <link rel="stylesheet" href="style.css">-->
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- sldiderr -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <style>
+        
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* transition: all 0.4s ease; */
+   
+   
+}
+
+
+
+:root {
+    --body-color: #2d2e32;
+    --nav-color: #2d2e32;
+    --side-nav: #e2e3e6;
+    --text-color: #FFF;
+    --search-text: #010718;
+    
+}
+
+body {
+    height: 100vh;
+    background-color: var(--body-color);
+}
+
+body.dark {
+    --body-color: #18191A;
+    --nav-color: #242526;
+    --side-nav: #242526;
+    --text-color: #CCC;
+}
+
+nav {
+    position: relative;
+    padding: 47px 14px;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: var(--nav-color);
+    z-index: 100;
+}
+
+body.dark nav {
+    border: 1px solid #393838;
+
+}
+
+nav .nav-bar {
+    position: relative;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    background-color: var(--nav-color);
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar .sidebarOpen {
+    color: var(--text-color);
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+nav .nav-bar .logo a {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.menu .logo-toggle {
+    display: none;
+}
+
+.nav-bar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links li {
+    margin: 0 5px;
+    list-style: none;
+}
+
+.nav-links li a {
+    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links li a::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.nav-links li:hover a::before {
+    opacity: 1;
+}
+
+#conbtn {
+    font-size: 18px;
+    font-weight: 500;
+    color: #25262a;
+    font-family: "Montserrat", Sans-serif;
+    background-color: #ffaf29;
+    /* background-image: (91deg,var(#ffaf29) 0%,var(#fecd1a) 100%); */
+    color: #25262a;
+    border-radius: 1em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    /* transition: all 0.3s ease-in-out; */
+    /* border: 1px solid black; */
+    box-shadow: 0 0 0 0 black;
+    text-decoration: none;
+
+}
+
+
+
+#conbtn:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}
+
+;
+
+@media (max-width: 990px) {
+    .contact-us-btn {
+        display: none;
+    }
+
+    .sidebarOpen {
+        display: block;
+    }
+}
+
+
+@media (max-width: 790px) {
+    nav .nav-bar .sidebarOpen {
+        display: block;
+        color: #e2e3e6;
+    }
+
+    .menu {
+        position: fixed;
+        height: 100%;
+        width: 320px;
+        left: -100%;
+        top: 0;
+        padding: 20px;
+        background-color: var(--side-nav);
+        z-index: 100;
+        transition: all 0.4s ease;
+    }
+
+    #conbtn {
+        display: none;
+    }
+
+    nav.active .menu {
+        left: -0%;
+    }
+
+    nav.active .nav-bar .navLogo a {
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    .menu .logo-toggle {
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-toggle .siderbarClose {
+        color: var(--text-color);
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-bar .nav-links {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .nav-links li a {
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+/* header-section */
+
+/* Your existing CSS code for the navbar goes here */
+
+.header-section {
+    display: flex;
+    /* margin-top: 100px; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-section {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.left-section {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* Add this line */
+}
+
+.left-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main-text h1 {
+    font-size: 86px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+.paragraph p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contact-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffaf29;
+    color: #25262a;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .header-section {
+        flex-direction: column;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+    }
+
+    .right-section {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+/* cards section styles */
+
+
+
+/* Your existing CSS code goes here */
+
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+} */
+
+/* .navbar {
+    background-color: #2d2e32;
+    color: #fff;
+    padding: 10px;
+} */
+/* 
+.header-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section1 {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.left-section1 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.left-section1 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.left-section1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cv-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffaf29;
+    color: #25262a;
+    border-radius: 5px;
+}
+
+.right-section1 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+*/
+.card {
+    width: 45%;
+    padding: 0px;
+    background-color: rgb(45, 46, 50);
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-section {
+    flex: 1 1 50%;
+}
+
+.cards-section {
+    flex: 1 1 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 45%;
+    /* Card styling */
+    display: flex;
+    height: 300px;
+}
+
+.card1 {
+    align-self: flex-end;
+    padding-top: 0px;
+}
+
+.card2 {
+    padding-bottom: 29px;
+    padding-top: 0px;
+    align-self: flex-end;
+    height: 329px;
+}
+
+.card3 {
+    padding-top: 34px;
+    height: 334px;
+}
+
+.card4 {
+    padding-top: 0px;
+}
+
+.content-section {
+    color: #ffffff;
+}
+
+.cv-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffaf29;
+    color: #25262a;
+    border-radius: 5px;
+}
+
+/* Media Query for smaller screen sizes */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content-section,
+    .cards-section {
+        flex: 1 1 100%;
+    }
+}
+
+/* skills deatila  section*/
+
+.arrow-icon {
+    color: yellow;
+    transform: rotate(-45deg);
+}
+
+.skillsdelt {
+    background-color: var(--body-color);
+}
+
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+/* button in next to skills details  */
+button {
+    height: 61px;
+    width: 141px;
+    position: relative;
+    padding: 12px 35px;
+    background: #FEC195;
+    font-size: 17px;
+    font-weight: 500;
+    color: #181818;
+    border: 3px solid #ffaf29;
+    border-radius: 8px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all .3s ease-in-out;
+}
+
+.star-1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+}
+
+.star-2 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-3 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-4 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 8px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-5 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-6 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    transition: all .8s ease;
+}
+
+button:hover {
+    background: transparent;
+    color: #FEC195;
+    box-shadow: 0 0 25px #fec1958c;
+    color: black;
+}
+
+button:hover .star-1 {
+    position: absolute;
+    top: -80%;
+    left: -30%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+button:hover .star-2 {
+    position: absolute;
+    top: -25%;
+    left: 10%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+button:hover .star-3 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+button:hover .star-4 {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 8px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+button:hover .star-5 {
+    position: absolute;
+    top: 25%;
+    left: 115%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+button:hover .star-6 {
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+}
+
+.fil0 {
+    fill: #FFFDEF
+}
+/* counter of rewards bla bla dashbord */
+.wrapperx {
+    /* position:relative;
+    width: 70vw;
+    transform: translate(-50%, -50%);
+    top: 15%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 4px; */
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.containerx {
+    width: 41vmin;
+    height: 43vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    /* border-radius: 0.5em; */
+    background-color: #21242b;
+
+}
+.num1{
+     border-radius: 40px 0 0 40px;
+}
+.num2{
+    border-radius: 0 40px 40px 0;
+}
+
+i {
+    color: #18f98f;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+span.num {
+    color: #64f4ab;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 87px;
+}
+
+span.text {
+    color: #e0e0e0;
+    font-size: 24px;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    /* .wrapperx {
+        width: 85vw;
+    } */
+
+    .containerx {
+        /* height: 26vmin;
+        width: 26vmin; */
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapperx {
+        /* width: 90vw; */
+        /* flex-wrap: wrap; */
+        /* gap: 30px; */
+    }
+
+    .containerx {
+        /* width: calc(50% - 40px);
+        height: 30vmin; */
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapperx {
+        /* gap: 15px; */
+    }
+
+    .containerx {
+        /* width: 100%;
+        height: 25vmin; */
+        font-size: 8px;
+    }
+}
+/* footer  */
+.footer1{ 
+    margin-top: 34px;
+    background-color: #25262a;
+    display: flex;
+    height: 132px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.otheracc{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .otheracc{
+        width: 24%;
+    }
+}
+
+
+
+
+
+
+        /* ///// inputs /////*/
+        body {
+            color: white;
+        }
+        input::placeholder,textarea::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            opacity: 1;
+            font-size: 20ox;
+            padding-left: 10px;
+            /* Firefox */
+        }
+        .styled-input {
+            float: left;
+            width: 293px;
+            margin: 1rem 0;
+            position: relative;
+            border-radius: 4px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .styled-input {
+                width: 100%;
+            }
+        }
+
+        .styled-input label {
+            color: #999;
+            padding: 1.3rem 30px 1rem 30px;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            -webkit-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+            pointer-events: none;
+        }
+
+        .styled-input.wide {
+            width: 650px;
+            max-width: 100%;
+        }
+
+        input {
+            background-color: #25262A;
+            border: 2px;
+            border-color: #64FAAB;
+            border-radius: 14px;
+            padding: 0 10px 0 25px;
+            height: 55px;
+        }
+
+        input,
+        textarea {
+            padding: 30px;
+            border: 2px solid #64f4ab;
+            width: 100%;
+            font-size: 1rem;
+            background-color: #25262A;
+            color: white;
+            border-radius: 14px;
+        }
+
+
+        textarea {
+            width: 100%;
+            min-height: 15em;
+        }
+
+        .input-container {
+            width: 650px;
+            max-width: 100%;
+            margin: 20px auto 25px auto;
+        }
+
+        .submit-btn {
+            float: right;
+            padding: 7px 35px;
+            border-radius: 60px;
+            display: inline-block;
+            background-color: #4b8cfb;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06),
+                0 2px 10px 0 rgba(0, 0, 0, 0.07);
+            -webkit-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+     
+
+        @media (max-width: 768px) {
+            .submit-btn {
+                width: 100%;
+                float: none;
+                text-align: center;
+            }
+        }
+
+      
+   
+        /* Custom CSS styles here */
+        .container {
+            display: flex;
+        }
+
+        .left-section {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right-section {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .contact-heading h3 {
+            font-size: 18px;
+        }
+
+        .touch-heading h1 {
+            font-size: 24px;
+        }
+
+        .description p {
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+        }
+
+      
+
+        .svg-div {
+            flex: 1;
+        }
+
+        .email-div,
+        .phone-div {
+            flex: 1;
+        }
+
+        .email-div p,
+        .phone-div p {
+            margin-bottom: 10px;
+        }
+
+        .form {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .input-div {
+            margin-bottom: 10px;
+        }
+
+
+        nav {
+            position: relative;
+            padding: 47px 14px;
+            top: 0;
+            left: 0;
+            height: 70px;
+            width: 100%;
+            background-color: var(--nav-color);
+            z-index: 100;
+        }
+        
+        body.dark nav {
+            border: 1px solid #393838;
+        
+        }
+        
+        nav .nav-bar {
+            position: relative;
+            height: 100%;
+            max-width: 100%;
+            width: 100%;
+            background-color: var(--nav-color);
+            margin: 0 auto;
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        nav .nav-bar .sidebarOpen {
+            color: var(--text-color);
+            font-size: 25px;
+            padding: 5px;
+            cursor: pointer;
+            display: none;
+        }
+        
+        nav .nav-bar .logo a {
+            font-size: 25px;
+            font-weight: 500;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        
+        .menu .logo-toggle {
+            display: none;
+        }
+        
+        .nav-bar .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        
+        .nav-bar .nav-links li {
+            margin: 0 5px;
+            list-style: none;
+        }
+        
+        .nav-links li a {
+            position: relative;
+            font-size: 17px;
+            font-weight: 400;
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 10px;
+        }
+        
+        .nav-links li a::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            height: 6px;
+            width: 6px;
+            border-radius: 50%;
+            background-color: var(--text-color);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-links li:hover a::before {
+            opacity: 1;
+        }
+        
+        .conbtn {
+            font-size: 18px;
+            font-weight: 500;
+            color: #25262a;
+            font-family: "Montserrat", Sans-serif;
+            background-color: #ffaf29;
+            /* background-image: (91deg,var(#ffaf29) 0%,var(#fecd1a) 100%); */
+            color: #25262a;
+            border-radius: 1em;
+            font-size: 17px;
+            font-weight: 600;
+            padding: 1em 2em;
+            cursor: pointer;
+            /* transition: all 0.3s ease-in-out; */
+            /* border: 1px solid black; */
+            box-shadow: 0 0 0 0 black;
+            text-decoration: none;
+        
+        }
+        
+        
+        
+        .conbtn:active {
+            transform: translateY(2px) translateX(1px);
+            box-shadow: 0 0 0 0 black;
+        }
+        
+        ;
+        
+        @media (max-width: 990px) {
+            .contact-us-btn {
+                display: none;
+            }
+        
+            .sidebarOpen {
+                display: block;
+            }
+        }
+        
+        
+        @media (max-width: 790px) {
+            nav .nav-bar .sidebarOpen {
+                display: block;
+                color: #e2e3e6;
+            }
+        
+            .menu {
+                position: fixed;
+                height: 100%;
+                width: 320px;
+                left: -100%;
+                top: 0;
+                padding: 20px;
+                background-color: var(--side-nav);
+                z-index: 100;
+                transition: all 0.4s ease;
+            }
+        
+            .conbtn {
+                display: none;
+            }
+        
+            nav.active .menu {
+                left: -0%;
+            }
+        
+            nav.active .nav-bar .navLogo a {
+                opacity: 0;
+                transition: all 0.3s ease;
+            }
+        
+            .menu .logo-toggle {
+                display: block;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+            .logo-toggle .siderbarClose {
+                color: var(--text-color);
+                font-size: 24px;
+                cursor: pointer;
+            }
+        
+            .nav-bar .nav-links {
+                flex-direction: column;
+                padding-top: 30px;
+            }
+        
+            .nav-links li a {
+                display: block;
+                margin-top: 20px;
+            }
+        }
+        
+
+
+        .animated-img {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 4s linear forwards;
+        }
+
+        .animated-skills {
+            position: relative;
+            opacity: 0;
+            animation: moveleft 4s linear forwards;
+        }
+
+        .animatedcard {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 3s linear forwards;
+        }
+
+        @keyframes moveleft {
+            0% {
+                opacity: 0;
+                transform: translateX(25px);
+            }
+
+            25% {
+                opacity: 0.5;
+                transform: translateX(50pxpx);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateX(75px);
+            }
+
+            75% {
+                opacity: 0.75;
+                transform: translateX(100px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(150px);
+            }
+
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateY(25px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+
+
+        
+        /* ///// inputs /////*/
+        body {
+            color: white;
+        }
+        input::placeholder,textarea::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            opacity: 1;
+            font-size: 20ox;
+            padding-left: 10px;
+            /* Firefox */
+        }
+        .styled-input {
+            float: left;
+            width: 293px;
+            margin: 1rem 0;
+            position: relative;
+            border-radius: 4px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .styled-input {
+                width: 100%;
+            }
+        }
+
+        .styled-input label {
+            color: #999;
+            padding: 1.3rem 30px 1rem 30px;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            -webkit-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+            pointer-events: none;
+        }
+
+        .styled-input.wide {
+            width: 650px;
+            max-width: 100%;
+        }
+
+        input {
+            background-color: #25262A;
+            border: 2px;
+            border-color: #64FAAB;
+            border-radius: 14px;
+            padding: 0 10px 0 25px;
+            height: 55px;
+        }
+
+        input,
+        textarea {
+            padding: 30px;
+            border: 2px solid #64f4ab;
+            width: 100%;
+            font-size: 1rem;
+            background-color: #25262A;
+            color: white;
+            border-radius: 14px;
+        }
+
+
+        textarea {
+            width: 100%;
+            min-height: 15em;
+        }
+
+        .input-container {
+            width: 650px;
+            max-width: 100%;
+            margin: 20px auto 25px auto;
+        }
+
+        .submit-btn {
+            float: right;
+            padding: 7px 35px;
+            border-radius: 60px;
+            display: inline-block;
+            background-color: #4b8cfb;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06),
+                0 2px 10px 0 rgba(0, 0, 0, 0.07);
+            -webkit-transition: all 300ms ease;
+            transition: all 300ms ease;
+        }
+
+     
+
+        @media (max-width: 768px) {
+            .submit-btn {
+                width: 100%;
+                float: none;
+                text-align: center;
+            }
+        }
+
+      
+   
+        /* Custom CSS styles here */
+        .container {
+            display: flex;
+        }
+
+        .left-section {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right-section {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .contact-heading h3 {
+            font-size: 18px;
+        }
+
+        .touch-heading h1 {
+            font-size: 24px;
+        }
+
+        .description p {
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+        }
+
+      
+
+        .svg-div {
+            flex: 1;
+        }
+
+        .email-div,
+        .phone-div {
+            flex: 1;
+        }
+
+        .email-div p,
+        .phone-div p {
+            margin-bottom: 10px;
+        }
+
+        .form {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .input-div {
+            margin-bottom: 10px;
+        }
+
+
+        nav {
+            position: relative;
+            padding: 47px 14px;
+            top: 0;
+            left: 0;
+            height: 70px;
+            width: 100%;
+            background-color: var(--nav-color);
+            z-index: 100;
+        }
+        
+        body.dark nav {
+            border: 1px solid #393838;
+        
+        }
+        
+        nav .nav-bar {
+            position: relative;
+            height: 100%;
+            max-width: 100%;
+            width: 100%;
+            background-color: var(--nav-color);
+            margin: 0 auto;
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        nav .nav-bar .sidebarOpen {
+            color: var(--text-color);
+            font-size: 25px;
+            padding: 5px;
+            cursor: pointer;
+            display: none;
+        }
+        
+        nav .nav-bar .logo a {
+            font-size: 25px;
+            font-weight: 500;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        
+        .menu .logo-toggle {
+            display: none;
+        }
+        
+        .nav-bar .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        
+        .nav-bar .nav-links li {
+            margin: 0 5px;
+            list-style: none;
+        }
+        
+        .nav-links li a {
+            position: relative;
+            font-size: 17px;
+            font-weight: 400;
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 10px;
+        }
+        
+        .nav-links li a::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            height: 6px;
+            width: 6px;
+            border-radius: 50%;
+            background-color: var(--text-color);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-links li:hover a::before {
+            opacity: 1;
+        }
+        
+        .conbtn {
+            font-size: 18px;
+            font-weight: 500;
+            color: #25262a;
+            font-family: "Montserrat", Sans-serif;
+            background-color: #ffaf29;
+            /* background-image: (91deg,var(#ffaf29) 0%,var(#fecd1a) 100%); */
+            color: #25262a;
+            border-radius: 1em;
+            font-size: 17px;
+            font-weight: 600;
+            padding: 1em 2em;
+            cursor: pointer;
+            /* transition: all 0.3s ease-in-out; */
+            /* border: 1px solid black; */
+            box-shadow: 0 0 0 0 black;
+            text-decoration: none;
+        
+        }
+        
+        
+        
+        .conbtn:active {
+            transform: translateY(2px) translateX(1px);
+            box-shadow: 0 0 0 0 black;
+        }
+        
+        ;
+        
+        @media (max-width: 990px) {
+            .contact-us-btn {
+                display: none;
+            }
+        
+            .sidebarOpen {
+                display: block;
+            }
+        }
+        
+        
+        @media (max-width: 790px) {
+            nav .nav-bar .sidebarOpen {
+                display: block;
+                color: #e2e3e6;
+            }
+        
+            .menu {
+                position: fixed;
+                height: 100%;
+                width: 320px;
+                left: -100%;
+                top: 0;
+                padding: 20px;
+                background-color: var(--side-nav);
+                z-index: 100;
+                transition: all 0.4s ease;
+            }
+        
+            .conbtn {
+                display: none;
+            }
+        
+            nav.active .menu {
+                left: -0%;
+            }
+        
+            nav.active .nav-bar .navLogo a {
+                opacity: 0;
+                transition: all 0.3s ease;
+            }
+        
+            .menu .logo-toggle {
+                display: block;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+            .logo-toggle .siderbarClose {
+                color: var(--text-color);
+                font-size: 24px;
+                cursor: pointer;
+            }
+        
+            .nav-bar .nav-links {
+                flex-direction: column;
+                padding-top: 30px;
+            }
+        
+            .nav-links li a {
+                display: block;
+                margin-top: 20px;
+            }
+        }
+        
+    </style>
+
+    <title>Responsive Navigation Menu Bar</title>
+</head>
+
+<body style="background-color: #2d2e32;">
+    <nav>
+        <div class="nav-bar">
+
+            <span class="logo navLogo">
+                <!-- <img src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/logo-header.svg"> -->
+                <svg data-v-6805eed4="" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="65%" height="50%"
+                    viewBox="0 0 340.000000 250.000000" preserveAspectRatio="xMidYMid meet"
+                    color-interpolation-filters="sRGB" style="margin: auto;">
+                    <g data-v-6805eed4="" fill="#fff" class="bordersvg b-d1"
+                        transform="translate(31.056673526763916,46.64749440492278)">
+                        <path fill-opacity="0" stroke="#fff" stroke-width="3"
+                            d="M 146.7050018310547 52.247501373291016 A 78.35250091552734 78.35250091552734 0 1 0 146.7050018310547 104.45750045776367">
+                        </path>
+                        <g transform="translate(10,52.247501373291016)">
+                            <g>
+                                <rect data-gra="graph-name-bg" stroke-width="2" class="i-icon-bg" x="0" y="0"
+                                    width="273.4100036621094" height="52.209999084472656" fill-opacity="0"></rect>
+                                <!----> <!---->
+                            </g>
+                            <g transform="translate(10,3)">
+                                <g data-gra="path-name" fill-rule="" class="tp-name">
+                                    <g transform="scale(1)">
+                                        <g>
+                                            <path
+                                                d="M55.17 0L51.14 0 51.14-21.46 11.47-21.46 11.47 0 7.44 0 7.44-44.28 11.47-44.28 11.47-25.2 51.14-25.2 51.14-44.28 55.17-44.28 55.17 0ZM116.18 0L112.18 0 112.18-4.9Q109.86-3.64 106.91-2.58 103.96-1.51 100.69-0.74 97.42 0.03 93.97 0.45 90.53 0.87 87.21 0.87L87.21 0.87Q82.89 0.87 79.46 0.1 76.02-0.68 73.64-2.21 71.25-3.74 69.97-6.01 68.68-8.28 68.68-11.28L68.68-11.28Q68.68-14.24 70.18-16.52 71.67-18.79 74.45-20.48 77.22-22.17 81.13-23.35 85.05-24.52 89.88-25.35 94.72-26.17 100.34-26.7 105.96-27.23 112.18-27.59L112.18-27.59 112.18-30.97Q112.18-33.03 111.41-34.61 110.64-36.19 109.25-37.37 107.86-38.54 106-39.33 104.13-40.12 101.95-40.61 99.78-41.09 97.37-41.3 94.97-41.51 92.56-41.51L92.56-41.51Q89.3-41.51 86.63-41.19 83.95-40.86 81.63-40.3 79.31-39.74 77.18-38.99 75.06-38.25 72.9-37.42L72.9-37.42 72.9-42.12Q77.38-43.31 82.45-44.2 87.53-45.08 93.23-45.08L93.23-45.08Q98.07-45.08 102.26-44.26 106.45-43.44 109.54-41.64 112.63-39.83 114.41-36.98 116.18-34.13 116.18-30.04L116.18-30.04 116.18 0ZM112.18-9.12L112.18-24.01Q101.64-23.43 94.18-22.37 86.72-21.3 81.99-19.75 77.25-18.21 75.04-16.15 72.83-14.08 72.83-11.47L72.83-11.47Q72.83-9.35 73.91-7.7 74.99-6.06 77.02-4.95 79.05-3.83 81.95-3.27 84.85-2.71 88.46-2.71L88.46-2.71Q90.59-2.71 92.86-2.95 95.13-3.19 97.39-3.63 99.65-4.06 101.84-4.66 104.03-5.25 105.96-5.96 107.9-6.67 109.49-7.48 111.09-8.28 112.18-9.12L112.18-9.12ZM132.71-44.28L136.74-44.28 136.74-37.48Q138.16-38.7 139.9-40.09 141.64-41.48 143.73-42.64 145.83-43.8 148.28-44.57 150.73-45.34 153.53-45.34L153.53-45.34Q158.01-45.34 161.46-43.33 164.91-41.31 167.03-37.09L167.03-37.09Q169.1-38.99 171.29-40.52 173.48-42.06 175.78-43.12 178.09-44.18 180.54-44.76 182.99-45.34 185.6-45.34L185.6-45.34Q188.92-45.34 191.64-44.21 194.36-43.09 196.26-41.12 198.17-39.16 199.21-36.5 200.26-33.84 200.26-30.81L200.26-30.81 200.26 0 196.23 0 196.23-29.78Q196.23-32.55 195.57-34.72 194.91-36.9 193.51-38.41 192.11-39.93 189.93-40.72 187.76-41.51 184.73-41.51L184.73-41.51Q182.31-41.51 179.94-40.81 177.57-40.12 175.41-38.98 173.25-37.83 171.38-36.38 169.52-34.93 168.1-33.39L168.1-33.39Q168.26-32.48 168.27-31.84 168.29-31.2 168.29-30.29L168.29-30.29 168.29 0 164.26 0 164.26-29.78Q164.26-33.06 163.39-35.3 162.52-37.54 160.98-38.93 159.43-40.32 157.32-40.91 155.21-41.51 152.73-41.51L152.73-41.51Q150.37-41.51 148.07-40.7 145.76-39.9 143.67-38.61 141.58-37.32 139.8-35.72 138.03-34.13 136.74-32.55L136.74-32.55 136.74 0 132.71 0 132.71-44.28ZM255.79 0L236.65-20.01 217.57 0 212.48 0 234.13-22.72 213.54-44.28 218.63-44.28 236.65-25.33 254.72-44.28 259.82-44.28 239.22-22.72 260.85 0 255.79 0Z"
+                                                transform="translate(-7.440000057220459, 45.34000015258789)"></path>
+                                        </g> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
+                                    </g>
+                                </g> <!---->
+                            </g>
+                        </g>
+                    </g>
+                    <defs v-gra="od"></defs>
+                </svg>
+            </span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Hamx Assignments</a></span>
+                    <i class='bx bx-x sidebarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    
+                </ul>
+            </div>
+
+            
+
+        </div>
+    </nav>
+    <!-- header start -->
+    <div class="header-section">
+        <div class="left-section">
+           <!--<img class="animated-img"                src="https://www.shutterstock.com/image-photo/stack-books-against-background-library-600nw-2459213053.jpg">-->
+            <img class="animated-img" src="https://www.shutterstock.com/image-photo/stack-books-against-background-library-600nw-2459213053.jpg" alt="Header Image"  style="width: 400px; height: auto, border-radius: 50%;">
+        </div>
+        <div class="right-section">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;">Hello</h2>
+            </div>
+            <div class="main-text">
+                <h1>
+
+                    We<br>
+                    are here to save your time <Br>
+                    
+                </h1>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>Our team has more 10 years experience <br>
+                    We have done a variety of tasks and assignments  for 220+ students in the past 1 year <br>
+                    Our team of experts and Q.A team are on standby to produce the highest quality of tasks.</p>
+            </div>
+           
+        </div>
+    </div>
+
+    <!-- cards and skills -->
+    <!-- 
+	<section class="header-section1">
+        <div class="left-section1">
+            <h2>My Skills</h2>
+            <h3>Why Hire Me For the Next Project?</h3>
+            <p>The technological revolution is changing aspects of our lives, and the fabric of society itself. It's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can collaborate with specialists.</p>
+            <div class="cv-button">
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+        <div class="right-section1">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>Card 1 content goes here</p>
+            </div>
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>Card 2 content goes here</p>
+            </div>
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>Card 3 content goes here</p>
+            </div>
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Card 4 content goes here</p>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="skills">
+        <div class="container">
+            <div style="padding: 9% 5em;" class="content-section">
+                <p style="color: #64f4ab;">--Our Skills</p>
+                <h1 style="padding:20px 1.5em; font-size: 36px;">Why Hire us?</h1>
+                <p style="padding: 25px ; font-size: larger  ;">We are dedicated to giving the best quality assignments at the best and competitive rates around. Our corporation does all technical and non technical assignments, cats and exams. Our team of QA and Experts are dedicated to providing the best services.
+                    we do a wide range of assignments ranging from mathematics and computer science, to philosophy, business and enterpreneurship, medicine and many more.
+                </p>
+
+
+               
+            </div>
+            <div class="cards-section">
+                <div class="card  card1 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 1 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Creativity</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">This drives us </p>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+
+    <div class="container skillsdelt mt-20 pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2 anime" id="rightSection1">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4 ">
+                        <img style="border-radius: 37px;"
+                            src="https://blogger.googleusercontent.com/img/a/AVvXsEgBv56lIrZnrNVFQ6jH3i3CQzAxHW89BxNb_ioc4NA6qB_BlSG1azBagei5LLRpvSTERmDQQkc3mm-U8MgPGxvlLwOoMyypY5HAZk6mBcYl05UpWGYCYSkltf4demS9OFyCxbfzcmwRB6x2q5s7RMU-5r5daSgdCLavVyHTdaV9M5HviWoamzcQlfLFHQ=s16000"
+                            alt="Image" class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2" id="leftSection1">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">What we do
+                        </h4>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">Reports</h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">We produce quality Reports for all our clients. We produce Al and plagarism free content while following the normal industry standards generallly accepted by the institutuions. this includes project reports , code reports,  engineering simulation reports , business reports and also lab reports.
+                        </p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="#" class="flex items-center text-white text-yellow-500">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- line no 3 -->
+
+
+    <div class="container skillsdelt mt-20 pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2" id="leftSection2">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <!--<h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Essays
+                        </h4>-->
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">Essays
+
+                        </h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">We handle all essays ranging from Argumentative Essays, Descriptive Essays, Expository Essays, and also Narrative Essays</p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="#" class="flex items-center text-white text-yellow-500">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2  anime" id="rightSection2">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4">
+                        <img style="border-radius: 37px;"
+                            src="https://assets.5staressays.com/blog/essay-writing-guide/essay-topics/Essay-Topics-5star.jpg"
+                            alt="Image" class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container skillsdelt mt-20 pt-16">
+                <div class="flex flex-wrap">
+                    <div class="w-full lg:w-1/2" id="leftSection2">
+                        <div class="flex flex-col h-full p-10 left_sec ">
+                            <div class="mb-4 mt-4">
+                                <!--<h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Essays
+                                </h4>-->
+                            </div>
+                            <div class="mb-4 mt-4">
+                                <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">Dissertations and Theses
+        
+                                </h2>
+                            </div>
+                            <div class="mb-4 mt-4">
+                                <p class="text-white text-lg" style=" font-family:monospace;">We handle all Dissertations and Theses following the structure Abstract, introduction, literature review, methodology, findings, conclusion. This varies from one course to another </p>
+                            </div>
+                            <div class="flex items-center">
+                                <a href="#" class="flex items-center text-white text-yellow-500">
+                                    <span class=" mr-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                            viewBox="0 0 18 10.998">
+                                            <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                                transform="translate(21 -6.501) rotate(90)">
+                                                <path id="Path_98" data-name="Path 98"
+                                                    d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                                    fill="#fecd1a" />
+                                            </g>
+                                        </svg></span>
+                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+            <div class="w-full lg:w-1/2  anime" id="rightSection2">
+                <div class="flex justify-center items-center h-full">
+                    <div class="w-3/4">
+                        <img style="border-radius: 37px;"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV7Pw6EUN9O510WdkYbxoBI5S3LoRBG47ylw&s"
+                            alt="Image" class="w-full h-auto rounded-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <div class="container skillsdelt mt-20 pt-16">
+        <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/2" id="leftSection2">
+                <div class="flex flex-col h-full p-10 left_sec ">
+                    <div class="mb-4 mt-4">
+                        <!--<h4 style="color: #64f4ab;" style=" font-family:monospace;" class="text-lg  font-bold">Essays
+                        </h4>-->
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <h2 class="text-5xl text-white font-bold " style=" font-family:monospace;">Proposals, Presentations, Literature Reviews, Technical Writing and Article writing
+
+                        </h2>
+                    </div>
+                    <div class="mb-4 mt-4">
+                        <p class="text-white text-lg" style=" font-family:monospace;">We handle all these types of assignments professionally, after the assignment is done, it is cross examined by QA team to ensure it satisfies the required Quality </p>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="#" class="flex items-center text-white text-yellow-500">
+                            <span class=" mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10.998"
+                                    viewBox="0 0 18 10.998">
+                                    <g id="right_arrow_-_icon" data-name="right arrow - icon"
+                                        transform="translate(21 -6.501) rotate(90)">
+                                        <path id="Path_98" data-name="Path 98"
+                                            d="M6.59,11.858a.714.714,0,0,0,.627.38h4.066v8.028a.717.717,0,1,0,1.434,0V12.238h4.066a.713.713,0,0,0,.627-.38.748.748,0,0,0-.02-.745l-4.783-7.77a.709.709,0,0,0-1.214,0L6.61,11.113A.754.754,0,0,0,6.59,11.858Z"
+                                            fill="#fecd1a" />
+                                    </g>
+                                </svg></span>
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    <div class="w-full lg:w-1/2  anime" id="rightSection2">
+        <div class="flex justify-center items-center h-full">
+            <div class="w-3/4">
+                <img style="border-radius: 37px;"
+                    src="https://cdn.slidesharecdn.com/ss_thumbnails/pastelbluewhitegreenwritingbrainstormmodernscrapbookwhiteboardpresentation-230207020653-c1819907-thumbnail.jpg?width=640&height=640&fit=bounds"
+                    alt="Image" class="w-full h-auto rounded-lg">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    <div class="center-button">
+        <!--<button style="background-color: #ffaf29;">View All
+            <div class="star-1">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-2">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-3">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-4">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-5">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="star-6">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                        <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                        <path
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                            class="fil0"></path>
+                    </g>
+                </svg>
+            </div>
+        </button>-->
+    </div>
+
+    <div class="wrapperx">
+        <div class="containerx num1">
+
+            <span class="num " data-val="56">0</span>
+            <span class="text">Happy Clients</span>
+        </div>
+
+        <div class="containerx">
+
+            <span class="num" data-val="87">0</span>
+            <span class="text">Projects Done</span>
+        </div>
+
+       
+
+        <div class="containerx num2">
+
+            <span class="num " data-val="7">0</span>
+            <span class="text">Years Experience</span>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- slider  section  -->
+
+
+
+
+
+
+    <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row justify-between max-w-5xl"  style="justify-content: center;">
+        <!-- Left Section -->
+        <div class="w-full md:w-1/2 mb-8 md:mb-0 md:mr-8">
+            <div class="mb-4">
+                <h3 class="text-sm text-emerald-400">--Contact us</h3>
+            </div>
+            <div class="mb-6">
+                <h1 class="text-2xl font-bold">Get in touch with us</h1>
+            </div>
+            <!--<div class="mb-8">
+                <p class="text-sm leading-relaxed text-justify">
+                    The technological revolution is changing aspects of our lives and the fabric of society itself. It's
+                    also changing the way we learn and what we learn. Factual knowledge is less prized when everything
+                    you ever need to know can be found on your phone.
+                </p>
+            </div>-->
+            <div class="mb-8">
+               
+                <div class="otheracc" style="display: flex; justify-content: space-between; gap: 50px;">
+
+        
+                    <div class="elementor-grid-item">
+                        <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-638ce13"
+                            href="https://www.linkedin.com/in/brian-john-197a28246/" target="_blank"  rel="noopener noreferrer" >
+        
+                            <i class="fab fa-linkedin-in"></i> </a>
+                    </div>
+                    <div class="elementor-grid-item">
+                        <a 
+                            class="elementor-icon elementor-social-icon elementor-social-icon-whatsapp elementor-repeater-item-638ce13" 
+                            href="https://wa.me/254745925086" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="elementor-grid-item">
+                        <a 
+                            class="elementor-icon elementor-social-icon elementor-social-icon-x elementor-repeater-item-638ce13" 
+                            href="https://x.com/prime_br7" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                            <i class="fab fa-x"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Right Section -->
+
+
+    
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                arrows: false,
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+
+
+    <!-- footer section  -->
+
+
+    <div class="footer1">
+
+        <div class="logo_sec">
+            <span class="logo navLogo">
+                <!-- <img src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/logo-header.svg"> -->
+                <svg data-v-6805eed4="" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" width="65%" height="50%"
+                viewBox="0 0 340.000000 250.000000" preserveAspectRatio="xMidYMid meet"
+                color-interpolation-filters="sRGB" style="margin: auto;">
+                <g data-v-6805eed4="" fill="#fff" class="bordersvg b-d1"
+                    transform="translate(31.056673526763916,46.64749440492278)">
+                    <path fill-opacity="0" stroke="#fff" stroke-width="3"
+                        d="M 146.7050018310547 52.247501373291016 A 78.35250091552734 78.35250091552734 0 1 0 146.7050018310547 104.45750045776367">
+                    </path>
+                    <g transform="translate(10,52.247501373291016)">
+                        <g>
+                            <rect data-gra="graph-name-bg" stroke-width="2" class="i-icon-bg" x="0" y="0"
+                                width="273.4100036621094" height="52.209999084472656" fill-opacity="0"></rect>
+                            <!----> <!---->
+                        </g>
+                        <g transform="translate(10,3)">
+                            <g data-gra="path-name" fill-rule="" class="tp-name">
+                                <g transform="scale(1)">
+                                    <g>
+                                        <path
+                                            d="M55.17 0L51.14 0 51.14-21.46 11.47-21.46 11.47 0 7.44 0 7.44-44.28 11.47-44.28 11.47-25.2 51.14-25.2 51.14-44.28 55.17-44.28 55.17 0ZM116.18 0L112.18 0 112.18-4.9Q109.86-3.64 106.91-2.58 103.96-1.51 100.69-0.74 97.42 0.03 93.97 0.45 90.53 0.87 87.21 0.87L87.21 0.87Q82.89 0.87 79.46 0.1 76.02-0.68 73.64-2.21 71.25-3.74 69.97-6.01 68.68-8.28 68.68-11.28L68.68-11.28Q68.68-14.24 70.18-16.52 71.67-18.79 74.45-20.48 77.22-22.17 81.13-23.35 85.05-24.52 89.88-25.35 94.72-26.17 100.34-26.7 105.96-27.23 112.18-27.59L112.18-27.59 112.18-30.97Q112.18-33.03 111.41-34.61 110.64-36.19 109.25-37.37 107.86-38.54 106-39.33 104.13-40.12 101.95-40.61 99.78-41.09 97.37-41.3 94.97-41.51 92.56-41.51L92.56-41.51Q89.3-41.51 86.63-41.19 83.95-40.86 81.63-40.3 79.31-39.74 77.18-38.99 75.06-38.25 72.9-37.42L72.9-37.42 72.9-42.12Q77.38-43.31 82.45-44.2 87.53-45.08 93.23-45.08L93.23-45.08Q98.07-45.08 102.26-44.26 106.45-43.44 109.54-41.64 112.63-39.83 114.41-36.98 116.18-34.13 116.18-30.04L116.18-30.04 116.18 0ZM112.18-9.12L112.18-24.01Q101.64-23.43 94.18-22.37 86.72-21.3 81.99-19.75 77.25-18.21 75.04-16.15 72.83-14.08 72.83-11.47L72.83-11.47Q72.83-9.35 73.91-7.7 74.99-6.06 77.02-4.95 79.05-3.83 81.95-3.27 84.85-2.71 88.46-2.71L88.46-2.71Q90.59-2.71 92.86-2.95 95.13-3.19 97.39-3.63 99.65-4.06 101.84-4.66 104.03-5.25 105.96-5.96 107.9-6.67 109.49-7.48 111.09-8.28 112.18-9.12L112.18-9.12ZM132.71-44.28L136.74-44.28 136.74-37.48Q138.16-38.7 139.9-40.09 141.64-41.48 143.73-42.64 145.83-43.8 148.28-44.57 150.73-45.34 153.53-45.34L153.53-45.34Q158.01-45.34 161.46-43.33 164.91-41.31 167.03-37.09L167.03-37.09Q169.1-38.99 171.29-40.52 173.48-42.06 175.78-43.12 178.09-44.18 180.54-44.76 182.99-45.34 185.6-45.34L185.6-45.34Q188.92-45.34 191.64-44.21 194.36-43.09 196.26-41.12 198.17-39.16 199.21-36.5 200.26-33.84 200.26-30.81L200.26-30.81 200.26 0 196.23 0 196.23-29.78Q196.23-32.55 195.57-34.72 194.91-36.9 193.51-38.41 192.11-39.93 189.93-40.72 187.76-41.51 184.73-41.51L184.73-41.51Q182.31-41.51 179.94-40.81 177.57-40.12 175.41-38.98 173.25-37.83 171.38-36.38 169.52-34.93 168.1-33.39L168.1-33.39Q168.26-32.48 168.27-31.84 168.29-31.2 168.29-30.29L168.29-30.29 168.29 0 164.26 0 164.26-29.78Q164.26-33.06 163.39-35.3 162.52-37.54 160.98-38.93 159.43-40.32 157.32-40.91 155.21-41.51 152.73-41.51L152.73-41.51Q150.37-41.51 148.07-40.7 145.76-39.9 143.67-38.61 141.58-37.32 139.8-35.72 138.03-34.13 136.74-32.55L136.74-32.55 136.74 0 132.71 0 132.71-44.28ZM255.79 0L236.65-20.01 217.57 0 212.48 0 234.13-22.72 213.54-44.28 218.63-44.28 236.65-25.33 254.72-44.28 259.82-44.28 239.22-22.72 260.85 0 255.79 0Z"
+                                            transform="translate(-7.440000057220459, 45.34000015258789)"></path>
+                                    </g> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
+                                </g>
+                            </g> <!---->
+                        </g>
+                    </g>
+                </g>
+                <defs v-gra="od"></defs>
+            </svg>
+            </span>
+
+        </div>
+        <div class="infoo">
+            <h3 style="color: white;">© 2024 - Crafted with passion</h3>
+        </div>
+        
+    </div>
+    <!-- Script -->
+    <!--  <script src="script.js"></script>-->
+
+    <script>
+
+
+const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      sidebarClose = document.querySelector(".sidebarClose");
+
+// js code to toggle sidebar
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
+
+sidebarClose.addEventListener("click" , () =>{
+    nav.classList.remove("active");
+});
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+function checkScreenSize() {
+    const leftSection = document.getElementById("leftSection");
+    const rightSection = document.getElementById("rightSection");
+    const leftSection2 = document.getElementById("leftSection2");
+    const rightSection2 = document.getElementById("rightSection2");
+    if (window.innerWidth < 768) {
+        leftSection.parentNode.insertBefore(rightSection, leftSection);
+        leftSection2.parentNode.insertBefore(rightSection2, leftSection2);
+    } else {
+        leftSection.parentNode.insertBefore(leftSection, rightSection);
+        leftSection2.parentNode.insertBefore(leftSection2, rightSection2);
+    }
+}
+
+
+// window.addEventListener("resize", checkScreenSize);
+// checkScreenSize();
+
+
+    </script>
+
+
+    <script>
+
+
+
+        const intersectionCallback = (entries) => {
+            for (const entry of entries) { // Loop over all elements that either enter or exit the view.
+                if (entry.isIntersecting) { // This is true when the element is in view.
+                    entry.target.classList.add('animatedcard'); // Add a class.
+                }
+            }
+        }
+
+        /**
+         * Create a observer and use the instersectionCallback as 
+         * the instructions for what to do when an element enters
+         * or leaves the view
+         */
+        const observer = new IntersectionObserver(intersectionCallback);
+
+        /**
+         * Get all .item elements and loop over them.
+         * Observe each individual item.
+         */
+        const items = document.querySelectorAll('.anime');
+        for (const item of items) {
+            observer.observe(item);
+            console.log("observ");
+        }
+
+    </script>
+
+    <script>
+        $(window).on('scroll', function () {
+            var st = $(this).scrollTop(),
+                vh = $(this).height(),
+                $counter = $('.wrapperx'),
+                ct = $counter.offset().top;
+            if ((st + vh) > ct) {
+                // #counter is in the viewport
+
+                let valueDisplays = document.querySelectorAll(".num");
+                let interval = 100;
+
+                valueDisplays.forEach((valueDisplay) => {
+                    let startValue = 0;
+                    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+                    let duration = Math.floor(interval / endValue);
+                    let counter = setInterval(function () {
+                        startValue += 1;
+                        valueDisplay.textContent = startValue;
+                        if (startValue == endValue) {
+                            clearInterval(counter);
+                        }
+                    }, duration);
+                });
+            }
+        })</script>
+
+</body>
+</body>
+
+</html>
